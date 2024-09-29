@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bhuppi -Devloper portfolio</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(15, 15, 42);
+        color: white;
+        font-family: Montserrat;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(20, 20, 52);
+        height: 80px;
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(101, 101, 141);
+        font-size: 1.04rem;
+      }
+      main hr {
+        border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 60px 84px;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        margin: 130px 0;
+      }
+      .firstsection > div {
+        width: 30%;
+      }
+
+      .leftsection {
+        font-size: 2.3rem;
+        margin: 70px 0;
+      }
+      .leftsection .buttons{
+        padding:50px 0 ;
+      }
+      .leftsection .btn{
+        background-color: rgb(42, 29, 42);
+        color: white;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 28px;
+        cursor: pointer;
+      }
+      
+      .rightsection img {
+        width: 80%;
+        margin: 50px 0;
+      }
+      .purple {
+        color: rgb(144, 59, 224);
+      }
+      .text-gray {
+        color: gray;
+      }
+      .pic {
+        height: 60%;
+        width: 30%;
+        border-radius: 10px;
+      }
+      #element {
+        color: rgb(71, 71, 118);
+      }
+      .secondsection {
+        max-width: 80vw;
+        margin: auto;
+      }
+      .secondsection h1 {
+        font-size: 1.9rem;
+      }
+      .secondsection .box {
+        background: white;
+        width: 65vw;
+        height: 2px;
+        margin: 50px 0;
+        display: flex;
+      }
+      .secondsection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 120px;
+      }
+      .image-top {
+        width: 23px;
+        position: relative;
+        top: -32px;
+        width: -9px;
+      }
+      .vertical-title {
+        position: relative;
+        top: 75px;
+        width: 150px;
+        font-size: 14px;
+      }
+      .vertical-desc {
+        position: relative;
+        color: gray;
+        top: 86px;
+        width: 150px;
+        font-size: 9px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Bhupesh Chandra Joshi</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Education</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me></a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi, My name is
+          <span class="purple">Bhupesh</span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn">Download Resume</button>
+            <button class="btn">Visit Github</button>
+          </div>
+        </div>
+        <div class="rightsection">
+          <img class="pic" src="assets/Bhuppi.jpeg" alt="" class="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondsection">
+        <span class="text-gray">What i have done so far</span>
+        <h1>Learning Experiance</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="assets/download.jpeg" alt="" />
+
+            <div class="vertical-title">Class 10th(2017-2018)</div>
+            <div class="vertical-desc">
+              I Completed my class 10th From R.G.N.V Gangolihat(Pithoragarh) in
+              year 2018
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="assets/download.jpeg" alt="" />
+
+            <div class="vertical-title">Class 12th(2019-2020)</div>
+            <div class="vertical-desc">
+              I Completed my class 12th From R.G.N.V Gangolihat(Pithoragarh) in
+              year 2020
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="assets/devloper.jpg" alt="" />
+
+            <div class="vertical-title">Diploma in C.S.E(2020-2022)</div>
+            <div class="vertical-desc">
+              I Persued my Diploma in computer science from G.P Dwarahat(Almora)
+              in Year 2022
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img class="image-top" src="assets/devloper.jpg" alt="" />
+
+            <div class="vertical-title">B.Tech in C.S.E(2022-2025)</div>
+            <div class="vertical-desc">
+              I am Persuing my Degree in computer science From N.P.S.E.I
+              Pithoragarh
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "App Developer", "Web designer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
